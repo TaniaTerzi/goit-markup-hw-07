@@ -17,6 +17,7 @@
     <!--Шапка сайта-->
     <header class="header-border">
         <div class="header-box conteiner">
+
         <div class="heder-logo">
             <a class="link" href="index.html">
                 <span class="logo-accent">Web</span><span class="logo">Studio</span>
@@ -35,7 +36,6 @@
 
         <div class="menu">
             <nav class="maine-nav">
-
             <ul class="site-nav list">
                 
                 <li class="item"><a href="" class="studio-page link">Studio</a></li>
@@ -43,10 +43,12 @@
                 <li class="item"><a href="" class="link">Contacts</a></li>
             </ul>
         </nav>
+        <div class="tablet-nav">
             <ul class="auth-nav list">
                 <li class="item"><a href="" class="link">info@devstudio.com</a></li>
                 <li class="item"><a href="" class="link">+11 (000) 111-11-11</a></li>
             </ul>
+        </div>
         </div>
         </div>
     </header>
@@ -61,42 +63,42 @@
         <div class="conteiner">
             <h2 class="visually-hidden">Our advantages</h2>
             <ul class="list-adv list">
-                <li class="item">
+                <li class="adv-item item">
                     <div class="tumb" aria-label="antenna">
                         <svg class="icon" width="64" height="64">
                             <use href="./img/icons.svg#icon-antenna"></use>
                         </svg>
                     </div>
                     <h3 class="adv-title third-heading">Strategy</h3>
-                    <p>Our goal is to identify the business
+                    <p class="adv-text">Our goal is to identify the business
                     problem to walk away with the perfect and creative solution.</p>
                 </li>
-                <li class="item">
+                <li class="adv-item item">
                     <div class="tumb" aria-label="clock">
                         <svg class="icon" width="64" height="64">
                             <use href="./img/icons.svg#icon-clock"></use>
                         </svg>
                     </div>
                     <h3 class="adv-title third-heading">Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                    <p class="adv-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
-                <li class="item">
+                <li class="adv-item item">
                     <div class="tumb" aria-label="diagram">
                         <svg class="icon" width="64" height="64">
                             <use href="./img/icons.svg#icon-diagram"></use>
                         </svg>
                     </div>
                     <h3 class="adv-title third-heading">Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                    <p class="adv-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
-                <li class="item">
+                <li class="adv-item item">
                     <div class="tumb" aria-label="icon-astronaut">
                         <svg class="icon" width="64" height="64">
                             <use href="./img/icons.svg#icon-astronaut"></use>
                         </svg>
                     </div>
                     <h3 class="adv-title third-heading">Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                    <p class="adv-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
         </div>
@@ -330,13 +332,18 @@
     </main>
     <!--Футер-->
     <footer class="futer">
+
+        
         <div class="futer-contein conteiner">
-            <div>
+
+            <div class="futer-tablet">
+            <div class="logo-futer-text">
             <a class="link" href="index.html">
                 <span class="logo-futer-accent">Web</span><span class="logo-futer">Studio</span>
             </a>
             <p class="futer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         </div>
+        
         <div class="futer-social">
             <h3 class="futer-title">Social media</h3>
             <ul class="futer-list list">
@@ -370,8 +377,12 @@
                 </li>
             </ul>
         </div>
+    </div>
+
         <div class="mail-futer">
             <h3 class="subscribe-futer">Subscribe</h3>   
+
+            <div class="mail-futer-form">
             <form class="form-futer">
                 <input type="email" class="form-input-futer" name="mail"
                     placeholder="E-mail">
@@ -382,6 +393,7 @@
                     </svg>
                 </button>
             </form>
+            </div>
         </div>
     </div>
     </footer>
@@ -440,10 +452,7 @@
                         </span>
                     </label>
 
-                    
-
-
-
+                 
                 <label class="modal-form-option-label"> 
                     <input type="checkbox" name="policy" value="accept-policy" class="modal-form-checkbox">
                     <span class="modal-form-custom-checkbox">
@@ -465,7 +474,7 @@
 
     <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-button js-close-menu">
-            <svg class="icon" width="32" height="22" aria-label="menu">
+            <svg class="icon" width="8" height="8" aria-label="menu">
                 <use class="icon-close" href="./img/icons.svg#icon-close-black"></use>
                 <!-- <use class="icon-menu" href="./img/icons.svg#menu-burger"></use> -->
             </svg>
