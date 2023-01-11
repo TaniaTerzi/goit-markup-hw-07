@@ -1197,6 +1197,8 @@ margin-bottom: 72px;
 
 
 .cust-logo {
+    display: flex;
+    text-align: center;
     flex-basis: calc((100% - 16px) / 2);
 }
 
@@ -1468,7 +1470,10 @@ padding: 0;
             }
             
             .cust-logo {
-                width: 30%;
+            display: flex;
+            text-align: center;
+            flex-basis: calc((100% - 32px) / 3); 
+
             }
 
             .futer {
