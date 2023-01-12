@@ -25,10 +25,9 @@
 
             <button type="button" class="menu-button js-open-menu"
             aria-expanded="false"
-          aria-controls="mobile-menu">
+            aria-controls="mobile-menu">
 
                 <svg class="icon" width="32" height="22" aria-label="menu">
-                    <!-- <use class="icon-close" href="./img/icons.svg#icon-close-black"></use> -->
                     <use class="icon-menu" href="./img/icons.svg#menu-burger"></use>
                 </svg>
             </button>
@@ -109,13 +108,37 @@
             <h2 class="second-heading">What are we doing</h2>
             <ul class="work-list list">
                 <li class="item">
-                    <a href=""><img src="./img/rectangle_1.jpg" alt="web site" width="360"></a>
+                    <a href=""><img
+                        
+                        srcset="
+                        ./img/rectangle_1.jpg 1x,
+                        ./img/rectangle_1@2x.jpg 2x
+                        " 
+                        src="./img/rectangle_1.jpg"
+                        alt="web site"
+                        width="360"></a>
                 </li>
                 <li class="item">
-                    <a href=""><img src="./img/rectangle_2.jpg" alt="mobile application" width="360"></a>    
+                    <a href=""><img
+                        
+                        srcset="
+                        ./img/rectangle_2.jpg 1x,
+                        ./img/rectangle_2@2x.jpg 2x
+                        "
+                        
+                        src="./img/rectangle_2.jpg"
+                        alt="mobile application"
+                        width="360"></a>    
                 </li>
                 <li class="item">
-                    <a href=""><img src="./img/rectangle_3.jpg" alt="website adaptation" width="360"></a>
+                    <a href=""><img
+                        srcset="
+                        ./img/rectangle_3.jpg 1x,
+                        ./img/rectangle_3@2x.jpg 2x
+                        "
+                    src="./img/rectangle_3.jpg"
+                    alt="website adaptation"
+                    width="360"></a>
                 </li>
             </ul>
             </div>
@@ -126,7 +149,14 @@
                 <h2 class="team-title second-heading">Our Team</h2>
                 <ul class="list-team list">
                     <li class="team-card">
-                        <img src="./img/teamcard_1.jpg" alt="Mark Guerrero Product Designer" width="264">
+                        <img
+                        srcset="
+                        ./img/teamcard_1.jpg 1x,
+                        ./img/teamcard_1@2x.jpg 2x                       
+                        "
+                        src="./img/teamcard_1.jpg"
+                        alt="Mark Guerrero Product Designer"
+                        width="264">
                         <div class="border-team">
                             <h3 class="team-card-title third-heading">Mark Guerrero</h3>
                             <p class="team-text">Product Designer</p>
@@ -163,7 +193,14 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./img/teamcard_2.jpg" alt="Tom Ford Frontend Developer" width="264">
+                        <img
+                        srcset="
+                        ./img/teamcard_2.jpg 1x,
+                        ./img/teamcard_2@2x.jpg 2x
+                        "
+                        src="./img/teamcard_2.jpg"
+                        alt="Tom Ford Frontend Developer"
+                        width="264">
                         <div class="border-team">
                             <h3 class="team-card-title third-heading">Tom Ford</h3>
                             <p class="team-text">Frontend Developer</p>
@@ -200,7 +237,14 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./img/teamcard_3.jpg" alt="Camila Garcia Marketing" width="264">
+                        <img
+                        srcset="
+                        ./img/teamcard_3.jpg 1x,
+                        ./img/teamcard_3@2x.jpg 2x
+                        "
+                        src="./img/teamcard_3.jpg"
+                        alt="Camila Garcia Marketing"
+                        width="264">
                         <div class="border-team">
                             <h3 class="team-card-title third-heading">Camila Garcia</h3>
                             <p class="team-text">Marketing</p>
@@ -237,7 +281,14 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./img/teamcard_4.jpg" alt="Daniel Wilson UI Designer" width="264">
+                        <img
+                        srcset="
+                        ./img/teamcard_4.jpg 1x,
+                        ./img/teamcard_4@2x.jpg 2x
+                        "
+                        src="./img/teamcard_4.jpg"
+                        alt="Daniel Wilson UI Designer"
+                        width="264">
                         <div class="border-team">
                             <h3 class="team-card-title third-heading">Daniel Wilson</h3>
                             <p class="team-text">UI Designer</p>
@@ -408,11 +459,8 @@
                 </svg>
             </button>
 
-                            <form class="form-modal">
+                    <form class="form-modal">
                     <h2 class="modal-title">Leave your contacts and we will call you back</h2>
-                
-
-                    
                     <label class="form-field" for="name">Name</label>
                         <span class="field-name"> 
                             <input type="text" class="form-input" name="name"
@@ -422,8 +470,7 @@
                             </svg>
                         </span>
                     </label>
-
-
+                    
                     <label class="form-field" for="phone">Phone</label>
                         <span class="field-name"> 
                             <input type="text" class="form-input" name="phone"
@@ -443,24 +490,22 @@
                             </svg>
                         </span>
                     </label>
-
-
+                    
                     <label class="form-field" for="textarea">Comment</label>
                         <span class="field-name"> 
                             <textarea class="form-input-text" name="input-text" id="textarea" cols="30" rows="10" placeholder="Text input"></textarea>
                         </span>
                     </label>
-
-                 
-                <label class="modal-form-option-label"> 
-                    <input type="checkbox" name="policy" value="accept-policy" class="modal-form-checkbox">
-                    <span class="modal-form-custom-checkbox">
-                        <svg class="modal-form-checkbox-icon" width="11" height="8">
-                            <use href="./img/icons.svg#icon-check"></use>
-                        </svg>
-                    </span>
-                    <span class="modal-form-option-span">I accept the terms and conditions of the <a class="modal-form-link" href="">Privacy Policy</a></span>
-                </label>
+                    
+                    <label class="modal-form-option-label"> 
+                        <input type="checkbox" name="policy" value="accept-policy" class="modal-form-checkbox">
+                        <span class="modal-form-custom-checkbox">
+                            <svg class="modal-form-checkbox-icon" width="11" height="8">
+                                <use href="./img/icons.svg#icon-check"></use>
+                            </svg>
+                        </span>
+                        <span class="modal-form-option-span">I accept the terms and conditions of the <a class="modal-form-link" href="">Privacy Policy</a></span>
+                    </label>
             
                 <button type="submit" class="modal-subscribe-button">Send
                     </button>
@@ -475,14 +520,13 @@
         <button class="button-close js-close-menu">
             <svg class="icon" width="8" height="8" aria-label="menu">
                 <use class="icon-close" href="./img/icons.svg#icon-close-black"></use>
-                <!-- <use class="icon-menu" href="./img/icons.svg#menu-burger"></use> -->
             </svg>
         </button>
-  
+
         <ul class="mobile-menu">
-          <li class="item"><a href="" class="link">Studio</a></li>
-          <li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li class="item"><a href="" class="link mobile-page">Contacts</a></li>
+            <li class="item"><a href="" class="link">Studio</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
+            <li class="item"><a href="" class="link mobile-page">Contacts</a></li>
         </ul>
         <ul class="auth-nav list">
             <li class="item"><a href="" class="link menu-tel">+11 (000) 111-11-11</a></li>
@@ -519,15 +563,15 @@
             </li>
         </ul>
 
-      </div>
-  
-      <script
+    </div>
+
+    <script
         defer
         src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"
-      ></script>
-      <script defer src="js/mobile-menu.js"></script>
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
 
     <script src="./js/modal.js"></script>
     <script defer src="./js/menu.js"></script>
