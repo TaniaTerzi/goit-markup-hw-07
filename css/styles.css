@@ -1144,7 +1144,9 @@ border-color: var(--accent-color);
     }
 
     .modal {
-        max-width: 392px;
+        width: calc(100% - 50px);
+        /* max-width: 392px; */
+        /* width: calc(100%-50px); */
         min-height: 586px;
         padding-left: 16px;
         padding-right: 16px;
@@ -1178,7 +1180,7 @@ border-color: var(--accent-color);
     .header-box {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .list-team {
@@ -1222,9 +1224,13 @@ border-color: var(--accent-color);
     }
 
     .auth-nav {
-        margin-left: 118px;
+        /* margin-left: 118px; */
         margin-bottom: 0;
     }
+
+.tablet-nav {
+    margin-left: 118px;
+}    
     
     .auth-nav .link {
         padding: 0;
@@ -1324,7 +1330,12 @@ border-color: var(--accent-color);
     .header-box {
         display: flex;
         align-items: center;
+        margin: 0 auto;
         /* justify-content: space-evenly; */
+    }
+
+    .menu {
+        margin-left: 76px;
     }
 
     /* .heder-logo {
