@@ -1231,6 +1231,11 @@ border-color: var(--accent-color);
     .auth-nav {
         /* margin-left: 118px; */
         margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .header-box {
+        justify-content: space-between;
     }
 
 .tablet-nav {
