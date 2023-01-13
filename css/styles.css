@@ -1006,6 +1006,12 @@ border-color: var(--accent-color);
     
     }
 
+    .maine-nav {
+        display: none;
+    }
+    .auth-nav {
+        display: none;
+    }
 
     .menu {
         display: none;
