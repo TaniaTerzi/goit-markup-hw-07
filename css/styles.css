@@ -991,7 +991,7 @@ border-color: var(--accent-color);
 
 @media screen and (max-width: 479px) {
     .conteiner {
-        max-width: 396px;
+        max-width: 479px;
         margin: 0 auto;
         padding-left: 16px;
         padding-right: 16px;
@@ -1146,7 +1146,6 @@ border-color: var(--accent-color);
     .modal {
         width: calc(100% - 50px);
         /* max-width: 392px; */
-        /* width: calc(100%-50px); */
         min-height: 586px;
         padding-left: 16px;
         padding-right: 16px;
