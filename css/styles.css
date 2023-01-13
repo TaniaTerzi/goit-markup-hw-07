@@ -1144,7 +1144,7 @@ border-color: var(--accent-color);
     }
 
     .modal {
-        width: 392px;
+        max-width: 392px;
         min-height: 586px;
         padding-left: 16px;
         padding-right: 16px;
